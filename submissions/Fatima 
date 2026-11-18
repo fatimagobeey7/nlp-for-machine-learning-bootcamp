@@ -1,0 +1,73 @@
+Research Assignment 1: Natural Language Processing (NLP)
+
+1. Understanding Natural Language Processing
+Natural Language Processing (NLP) is a technology that allows computers to communicate with humans through written and spoken language.
+It is connected to three important fields:
+Artificial Intelligence (AI): Gives computers the ability to perform intelligent activities.
+Machine Learning (ML): Helps computers learn from information and experience.
+NLP: Applies these technologies to human languages.
+Practical example: When someone speaks to Siri, NLP interprets the spoken request, ML helps recognise language patterns, and AI helps produce an appropriate response.
+
+
+2. Fundamental NLP concepts
+Consider a collection of news articles about education.
+
+Concept     Application
+Corpus      All collected news articles
+Document    One individual article
+Token       Each word in an article
+Vocabulary  All different words across the articles
+Feature  Word frequency or sentence length
+Label    Category such as education,    politics or sports
+
+
+3.Major Applications of NLP
+
+NLP performs different functions depending on the problem being solved.
+
+pending on the problem being solved.
+Purpose Input Output
+Text classification Sorts information News article Sports, politics, education
+Sequence labeling Identifies word roles Sentence Person, location, organisation
+Search and similarity Finds related information User query Matching documents
+Text generation Produces language Written instruction Generated response
+
+For example, a university can use text classification to organise applications, while a chatbot can use text generation to answer students' questions.
+
+
+4.Learning Approaches in NLP
+Supervised Learning
+
+The computer receives examples that already have correct answers. It learns to make similar predictions.
+
+Example: Training a system with labelled messages to recognise fraudulent messages.
+Unsupervised Learning
+The computer receives information without predefined answers and discovers similarities.
+Example: Analysing thousands of news articles and automatically grouping articles about similar subjects.
+The main difference is that supervised learning requires target labels, whereas unsupervised learning identifies patterns without them.
+
+5.Converting Language into Numbers
+
+Computers process mathematical information more easily than ordinary human language. NLP therefore transforms text into numerical data.
+One common technique is TF-IDF (Term Frequency–Inverse Document Frequency). TF-IDF measures how important a word is within a document compared with its frequency across a collection of documents.
+For example, the word "scholarship" may be important in an article about university funding but less important across unrelated articles.
+Limitation: TF-IDF does not understand the actual meaning or context of words. Two words with similar meanings may be treated as completely different.
+
+6.Although Somali is widely spoken, developing computer systems for it remains challenging.
+Lack of digital resources: There are relatively few large, professionally annotated Somali datasets. This limits the information available for training language models.
+Grammatical complexity: Somali words can have different forms depending on grammatical structure. Computers may struggle to recognise that different forms belong to the same root word.
+Dialect differences: Somali speakers use different dialects and expressions. A system trained mainly on one variety may misunderstand another.
+Possible improvements: Develop digital dictionaries, collect more language samples and involve Somali speakers in building and testing NLP systems.
+
+7.Method: They used machine learning techniques to analyse Somali words and classify messages according to their emotions.
+Findings:
+Computers can identify positive and negative opinions in Somali text.
+Even small datasets can support sentiment analysis.
+More Somali language resources are needed to improve accuracy.
+
+NLP task: Sentiment analysis, because the system identifies emotions and opinions expressed in written messages.
+
+Reference:
+ Jurafsky, D., & Martin, J. H. Speech and Language Processing.
+2. Mohamed, S. A., & Mohamed, M. A. (2023). Lexicon and Rule-Based Word Lemmatization Approach for Somali Language. https://arxiv.org/abs/2308.01785⁠
+3. Gedi, A. A., et al. (2026). Morphologically-Informed Somali Lemmatization Corpus Built with a Web-Based Crowdsourcing Platform.
